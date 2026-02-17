@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cola do Dev
 
-## Getting Started
+O **Cola do Dev** é uma aplicação web de consulta rápida para desenvolvedores, com snippets, atalhos e informações organizadas por categorias, busca e favoritos.
 
-First, run the development server:
+## Badges
+
+[![Next.js](https://img.shields.io/badge/Next.js-Framework-000000?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-Library-20232A?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Language-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Styling-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Licença MIT](https://img.shields.io/badge/Licen%C3%A7a-MIT-green.svg)](./LICENSE)
+
+## Sumário
+
+- [Guia de Instalação do projeto](#guia-de-instalação-do-projeto)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
+## Guia de Instalação do projeto
+
+### Pré-requisitos
+
+- Node.js
+- npm
+
+### Passos
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/aeciobrumel/cola-do-dev.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd cola-do-dev
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Rode o projeto em desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Gere o build de produção:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+6. Inicie em modo produção:
 
-## Learn More
+```bash
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- React DOM
+- TypeScript
+- Tailwind CSS
+- ESLint
+- Lucide React
+- React Icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contribuição
 
-## Deploy on Vercel
+Contribuições são bem-vindas. Para contribuir:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature: `git checkout -b minha-feature`.
+3. Commit suas alterações: `git commit -m "feat: minha nova feature"`.
+4. Faça push da branch: `git push origin minha-feature`.
+5. Abra um Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
